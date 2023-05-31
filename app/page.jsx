@@ -1,4 +1,6 @@
 import React from "react";
+import Feed from "@components/Feed";
+import Provider from "@components/Provider";
 
 const Home = () => {
   return (
@@ -12,6 +14,8 @@ const Home = () => {
         Promptia is an open-source AI prompting tool for modern world to
         discover, create and share creative prompts.
       </p>
+      {/*  Feed */}
+      <Feed />
     </section>
   );
 };
